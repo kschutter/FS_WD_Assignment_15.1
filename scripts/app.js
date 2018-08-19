@@ -95,4 +95,9 @@
   initialFlightList.flights.forEach(function(elmt) {
     app.updateFlightCard(elmt);
   })
+
+  if (navigator.onLine == false) {
+    banner = document.querySelector("banner_no_connection");
+    banner.removeAttribute("hidden");
+  }
 })();

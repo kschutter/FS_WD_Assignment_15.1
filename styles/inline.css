@@ -96,12 +96,12 @@ body {
     cursor: pointer; }
   .header #butRefresh {
     background: url(/images/ic_refresh_white_24px.svg) center center no-repeat; }
-.header_no_connection {
+.banner_no_connection {
     font-weight: 400;
     font-size: 20px;
     margin: 0;
     background: red;
-    
+    position: relative;
 }
 
 .header__title {
